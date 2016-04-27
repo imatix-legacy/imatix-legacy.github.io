@@ -1,0 +1,69 @@
+<HTML><HEAD>
+<TITLE>Search The iMatix Website</TITLE></HEAD>
+<BODY BACKGROUND="newstone.gif">
+<P><A HREF="/index.htm"> Back to iMatix home page</A></P>
+<HR>
+
+<H1>Search The iMatix Website</H1>
+
+<H2>Quick Search</H2>
+
+<P>Find all files containing these words:</P>
+
+<FORM METHOD="POST" ACTION="/cgi-bin/discover/html/">
+    <INPUT TYPE=HIDDEN NAME="username" VALUE="imatixmg">
+    <INPUT TYPE=HIDDEN NAME="header"   VALUE="/html/header.htm">
+    <INPUT TYPE=HIDDEN NAME="footer"   VALUE="/html/footer.htm">
+    <INPUT NAME="query"  SIZE=60>
+    <INPUT TYPE="submit" VALUE="Search"> &#160;
+    <INPUT TYPE="reset"  VALUE="Reset">
+</FORM>
+
+<H2>Complex Search</H2>
+
+<P>Find all files containing these words:</P>
+
+<FORM METHOD="post" ACTION="/cgi-bin/discover/html/">
+    <INPUT TYPE=HIDDEN NAME="username" VALUE="imatixmg">
+    <INPUT TYPE=HIDDEN NAME="header"   VALUE="/html/header.htm">
+    <INPUT TYPE=HIDDEN NAME="footer"   VALUE="/html/footer.htm">
+    <INPUT NAME="query"  SIZE=60>
+    <INPUT TYPE="submit" VALUE="Search"> &#160;
+    <INPUT TYPE="reset"  VALUE="Reset">
+    <BR><BR>Search criteria:
+    <INPUT TYPE=CHECKBOX NAME="case"> Case sensitive
+    <INPUT TYPE=CHECKBOX NAME="whole"> Partial match
+    <INPUT TYPE=CHECKBOX NAME="lines"> Show line numbers
+    <UL>
+        <LI>Return at most
+            <SELECT NAME="maxfiles">
+                <OPTION SELECTED VALUE="10">10
+                <OPTION VALUE="50">50
+                <OPTION VALUE="100">100
+                <OPTION VALUE="500">500
+            </SELECT> files.</LI>
+        <LI>Ignore files with more than
+            <SELECT NAME="maxlines">
+                <OPTION VALUE="10">10
+                <OPTION SELECTED VALUE="25">25
+                <OPTION VALUE="50">50
+                <OPTION VALUE="100">100
+            </SELECT> matches.</LI>
+        <LI>Return only files changed in the last
+            <INPUT NAME="age" SIZE=3> days.</LI>
+        <LI>Allow at most
+            <SELECT NAME="errors">
+                <OPTION SELECTED VALUE="0">0
+                <OPTION VALUE="1">1
+                <OPTION VALUE="2">2
+                <OPTION VALUE="5">5
+            </SELECT> mispellings.</LI>
+    </UL>
+</FORM>
+
+<HR><P>
+<A HREF="/index.htm">
+<IMG SRC="/html/im0096c.gif" WIDTH=96 HEIGHT=36 ALT="iMatix"></A>
+Copyright &#169; 1996-98 iMatix</P>
+</BODY></HTML>
+

@@ -1,0 +1,714 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<title>Web Server Statstics</title></head>
+<body bgcolor="#ffffff">
+<a NAME="Top"><h1 align=center>Web Server Statistics</h1>
+
+<hr>
+Program started at Sat-Nov-01-1997 05:31 local time.
+<br>Analyzed requests from Wed-Oct-01-1997 00:04 to
+  Fri-Oct-31-1997 20:08 (30.8 days).
+
+<p><b>Total successful requests:</b> 148,161 (26,478)
+<br><b>Average successful requests per day:</b> 4,805 (3,782)
+<br><b>Total successful requests for pages:</b> 38,791 (6,464)
+<br><b>Average successful requests for pages per day:</b> 1,258 (923)
+<br><b>Total failed requests:</b> 963 (167)
+<br><b>Total redirected requests:</b> 80 (20)
+<br><b>Number of distinct files requested:</b> 768 (408)
+<br><b>Number of distinct hosts served:</b> 8,289 (1,868)
+<br><b>Number of new hosts served in last 7 days:</b> 1,495
+<br><b>Corrupt logfile lines:</b> 224
+<br><b>Unwanted logfile entries:</b> 182
+<br><b>Total data transferred (in bytes):</b> 3,348,365,897 bytes (568,839,039 bytes)
+<br><b>Total data transferred (in Megabytes):</b> 3193.251 Megabytes (542.487 Megabytes)
+<br><b>Average data transferred per day:</b> 108,583,423 bytes (81,262,720 bytes)
+<br>(Figures in parentheses refer to the last 7 days).
+
+<p>(<b>Go To</b>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+<hr>
+<h2><a NAME="Weekly">Weekly Report</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+
+<p>Each unit (<tt><img src="/icons/bar1.gif" alt="+"></tt>) represents 600 requests for pages, or part thereof.
+
+<pre width=65><tt>
+week beg.: #reqs:  %reqs:     bytes: %bytes: 
+---------  -----  ------  ---------  ------  
+Sep/28/97: 16528: 11.16%: 350139261: 10.46%: <img src="/icons/bar4.gif" alt="+++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/ 5/97: 40957: 27.64%: 939837996: 28.07%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/12/97: 35143: 23.72%: 871041461: 26.01%: <img src="/icons/bar16.gif" alt="+++++++++++++++++"><img src="/icons/bar1.gif" alt="">
+Oct/19/97: 31242: 21.09%: 662926783: 19.80%: <img src="/icons/bar8.gif" alt="+++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/26/97: 24291: 16.40%: 524420396: 15.66%: <img src="/icons/bar8.gif" alt="++++++++++"><img src="/icons/bar2.gif" alt="">
+</tt></pre><hr>
+<h2><a NAME="Daily">Daily Summary</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+
+<p>Each unit (<tt><img src="/icons/bar1.gif" alt="+"></tt>) represents 300 requests for pages, or part thereof.
+
+<pre width=65><tt>
+day: #reqs:  %reqs:     bytes: %bytes: 
+---  -----  ------  ---------  ------  
+Sun: 17578: 11.86%: 448063331: 13.38%: <img src="/icons/bar16.gif" alt="++++++++++++++++">
+Mon: 21787: 14.70%: 505255328: 15.09%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Tue: 21883: 14.77%: 504200856: 15.06%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++"><img src="/icons/bar4.gif" alt="">
+Wed: 28027: 18.92%: 609575279: 18.21%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++++++++"><img src="/icons/bar8.gif" alt=""><img src="/icons/bar2.gif" alt="">
+Thu: 23423: 15.81%: 483112941: 14.43%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Fri: 21803: 14.72%: 462501666: 13.81%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++"><img src="/icons/bar4.gif" alt="">
+Sat: 13660:  9.22%: 335656496: 10.02%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+</tt></pre><hr>
+<h2><a NAME="FullDaily">Daily Report</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+
+<p>Each unit (<tt><img src="/icons/bar1.gif" alt="+"></tt>) represents 150 requests for pages, or part thereof.
+
+<pre width=65><tt>
+     date: #reqs:  %reqs:     bytes: %bytes: 
+---------  -----  ------  ---------  ------  
+Oct/ 1/97:  3268:  2.21%:  69567957:  2.08%: <img src="/icons/bar4.gif" alt="++++++"><img src="/icons/bar2.gif" alt="">
+Oct/ 2/97:  4355:  2.94%:  72982553:  2.18%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/ 3/97:  4533:  3.06%:  92752371:  2.77%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/ 4/97:  4372:  2.95%: 114836380:  3.43%: <img src="/icons/bar8.gif" alt="++++++++">
+
+Oct/ 5/97:  4949:  3.34%: 130150542:  3.89%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/ 6/97:  6771:  4.57%: 146902107:  4.39%: <img src="/icons/bar8.gif" alt="++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt="">
+Oct/ 7/97:  6203:  4.19%: 130678519:  3.90%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+Oct/ 8/97:  8914:  6.02%: 200685469:  5.99%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++"><img src="/icons/bar4.gif" alt="">
+Oct/ 9/97:  5641:  3.81%: 130148691:  3.89%: <img src="/icons/bar8.gif" alt="++++++++++"><img src="/icons/bar2.gif" alt="">
+Oct/10/97:  5004:  3.38%: 114303594:  3.41%: <img src="/icons/bar8.gif" alt="+++++++++"><img src="/icons/bar1.gif" alt="">
+Oct/11/97:  3475:  2.35%:  86969074:  2.60%: <img src="/icons/bar4.gif" alt="++++++"><img src="/icons/bar2.gif" alt="">
+
+Oct/12/97:  5483:  3.70%: 155788596:  4.65%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+Oct/13/97:  5497:  3.71%: 147125456:  4.39%: <img src="/icons/bar8.gif" alt="+++++++++"><img src="/icons/bar1.gif" alt="">
+Oct/14/97:  6784:  4.58%: 170622792:  5.10%: <img src="/icons/bar8.gif" alt="++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt="">
+Oct/15/97:  5696:  3.84%: 134501029:  4.02%: <img src="/icons/bar8.gif" alt="+++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/16/97:  3874:  2.61%:  87172448:  2.60%: <img src="/icons/bar4.gif" alt="++++++"><img src="/icons/bar2.gif" alt="">
+Oct/17/97:  4671:  3.15%:  96080484:  2.87%: <img src="/icons/bar8.gif" alt="+++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/18/97:  3138:  2.12%:  79750656:  2.38%: <img src="/icons/bar4.gif" alt="++++++"><img src="/icons/bar2.gif" alt="">
+
+Oct/19/97:  3913:  2.64%:  90114897:  2.69%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/20/97:  4858:  3.28%: 105095308:  3.14%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/21/97:  4824:  3.26%: 106282791:  3.17%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/22/97:  5292:  3.57%: 113096115:  3.38%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/23/97:  5245:  3.54%:  99323486:  2.97%: <img src="/icons/bar8.gif" alt="+++++++++"><img src="/icons/bar1.gif" alt="">
+Oct/24/97:  4435:  2.99%:  94913800:  2.83%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/25/97:  2675:  1.81%:  54100386:  1.62%: <img src="/icons/bar4.gif" alt="+++++"><img src="/icons/bar1.gif" alt="">
+
+Oct/26/97:  3233:  2.18%:  72009296:  2.15%: <img src="/icons/bar4.gif" alt="+++++"><img src="/icons/bar1.gif" alt="">
+Oct/27/97:  4661:  3.15%: 106132457:  3.17%: <img src="/icons/bar8.gif" alt="++++++++">
+Oct/28/97:  4072:  2.75%:  96616754:  2.89%: <img src="/icons/bar4.gif" alt="+++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/29/97:  4857:  3.28%:  91724709:  2.74%: <img src="/icons/bar8.gif" alt="+++++++++"><img src="/icons/bar1.gif" alt="">
+Oct/30/97:  4308:  2.91%:  93485763:  2.79%: <img src="/icons/bar4.gif" alt="+++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+Oct/31/97:  3160:  2.13%:  64451417:  1.92%: <img src="/icons/bar4.gif" alt="++++++"><img src="/icons/bar2.gif" alt="">
+</tt></pre><hr>
+<h2><a NAME="Hourly">Hourly Summary</a></h2>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+
+<p>Each unit (<tt><img src="/icons/bar1.gif" alt="+"></tt>) represents 100 requests for pages, or part thereof.
+
+<pre width=65><tt>
+hr: #reqs:  %reqs:     bytes: %bytes: 
+--  -----  ------  ---------  ------  
+ 0:  5581:  3.77%: 128606767:  3.84%: <img src="/icons/bar8.gif" alt="++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt="">
+ 1:  5255:  3.55%: 120892683:  3.61%: <img src="/icons/bar8.gif" alt="+++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar1.gif" alt="">
+ 2:  5183:  3.50%: 136597556:  4.08%: <img src="/icons/bar8.gif" alt="+++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar1.gif" alt="">
+ 3:  4468:  3.02%: 120186919:  3.59%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+ 4:  5682:  3.84%: 142302086:  4.25%: <img src="/icons/bar16.gif" alt="++++++++++++++++">
+ 5:  7101:  4.79%: 170328221:  5.09%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt="">
+ 6:  7431:  5.02%: 173724494:  5.19%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+ 7:  7849:  5.30%: 177680024:  5.31%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar1.gif" alt="">
+ 8:  8356:  5.64%: 181792010:  5.43%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++++++++"><img src="/icons/bar8.gif" alt=""><img src="/icons/bar1.gif" alt="">
+ 9:  7033:  4.75%: 164383041:  4.91%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++"><img src="/icons/bar4.gif" alt="">
+10:  7205:  4.86%: 157351438:  4.70%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+11:  8089:  5.46%: 176357412:  5.27%: <img src="/icons/bar16.gif" alt="++++++++++++++++++++"><img src="/icons/bar4.gif" alt="">
+12:  7817:  5.28%: 179910109:  5.37%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+13:  7507:  5.07%: 148636092:  4.44%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar1.gif" alt="">
+14:  6803:  4.59%: 150060960:  4.48%: <img src="/icons/bar16.gif" alt="++++++++++++++++">
+15:  5762:  3.89%: 124768827:  3.73%: <img src="/icons/bar8.gif" alt="++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt="">
+16:  5629:  3.80%: 131314000:  3.92%: <img src="/icons/bar8.gif" alt="++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt="">
+17:  5690:  3.84%: 124742941:  3.73%: <img src="/icons/bar8.gif" alt="+++++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+18:  5134:  3.47%: 111698150:  3.34%: <img src="/icons/bar8.gif" alt="+++++++++++++"><img src="/icons/bar4.gif" alt=""><img src="/icons/bar1.gif" alt="">
+19:  4888:  3.30%: 101076583:  3.02%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+20:  5303:  3.58%:  96573764:  2.88%: <img src="/icons/bar16.gif" alt="+++++++++++++++++++"><img src="/icons/bar2.gif" alt=""><img src="/icons/bar1.gif" alt="">
+21:  4069:  2.75%:  91330052:  2.73%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+22:  4934:  3.33%: 114435823:  3.42%: <img src="/icons/bar8.gif" alt="++++++++++++"><img src="/icons/bar4.gif" alt="">
+23:  5392:  3.64%: 123615945:  3.69%: <img src="/icons/bar16.gif" alt="+++++++++++++++++"><img src="/icons/bar1.gif" alt="">
+</tt></pre>
+
+<hr>
+<h2><a NAME="Domain">Domain Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+<p>Printing all domains, sorted by number of requests.
+<pre>#reqs:  %reqs:     bytes: %bytes: domain
+-----  ------  ---------  ------  ------
+30597: 20.65%: 702331717: 20.98%: [unresolved numerical addresses]
+28445: 19.20%: 615328397: 18.38%: .com (Commercial, mainly USA)
+24918: 16.82%: 561018477: 16.75%: .net (Network)
+ 9480:  6.40%: 179622537:  5.36%: .edu (USA Educational)
+ 9048:  6.11%: 257379805:  7.69%: .de (Germany)
+ 4253:  2.87%:  89036892:  2.66%: .ca (Canada)
+ 4173:  2.82%:  80722497:  2.41%: .se (Sweden)
+ 3941:  2.66%:  92680250:  2.77%: .uk (United Kingdom)
+ 2770:  1.87%:  65562242:  1.96%: .nl (Netherlands)
+ 2687:  1.81%:  53247698:  1.59%: .es (Spain)
+ 2534:  1.71%:  60916552:  1.82%: .au (Australia)
+ 1813:  1.22%:  51284991:  1.53%: .it (Italy)
+ 1703:  1.15%:  36901858:  1.10%: .fr (France)
+ 1486:  1.00%:  34269859:  1.02%: .ru (Russian Federation)
+ 1477:  1.00%:  37617023:  1.12%: .dk (Denmark)
+ 1425:  0.96%:  22723328:  0.68%: .be (Belgium)
+ 1307:  0.88%:  20367692:  0.61%: .org (Non-Profit Making Organisations)
+ 1199:  0.81%:  26927938:  0.80%: .at (Austria)
+ 1109:  0.75%:  27235868:  0.81%: .ch (Switzerland)
+ 1042:  0.70%:  21152288:  0.63%: .jp (Japan)
+  939:  0.63%:  20499586:  0.61%: .fi (Finland)
+  872:  0.59%:  18190447:  0.54%: .no (Norway)
+  683:  0.46%:  17782708:  0.53%: .gov (USA Government)
+  662:  0.45%:  17354019:  0.52%: .br (Brazil)
+  597:  0.40%:  13216456:  0.39%: .nz (New Zealand)
+  588:  0.40%:  23632786:  0.71%: .pl (Poland)
+  547:  0.37%:  13209124:  0.39%: .my (Malaysia)
+  544:  0.37%:  14488422:  0.43%: .hu (Hungary)
+  531:  0.36%:  15794582:  0.47%: .gr (Greece)
+  513:  0.35%:   7998724:  0.24%: .pt (Portugal)
+  487:  0.33%:   9083051:  0.27%: .kr (South Korea)
+  476:  0.32%:  13142566:  0.39%: .sg (Singapore)
+  390:  0.26%:   6497280:  0.19%: .hr (Croatia)
+  362:  0.24%:   7151128:  0.21%: .mil (USA Military)
+  301:  0.20%:   6298954:  0.19%: .us (United States)
+  278:  0.19%:   4681150:  0.14%: .id (Indonesia)
+  260:  0.18%:   5952820:  0.18%: .th (Thailand)
+  258:  0.17%:   6620340:  0.20%: .za (South Africa)
+  256:  0.17%:   4572557:  0.14%: .in (India)
+  247:  0.17%:   4897356:  0.15%: .hk (Hong Kong)
+  225:  0.15%:   6985917:  0.21%: .mx (Mexico)
+  204:  0.14%:   4522628:  0.14%: .cl (Chile)
+  190:  0.13%:   4675851:  0.14%: .il (Israel)
+  189:  0.13%:   6058367:  0.18%: .cz (Czech Republic)
+  165:  0.11%:   8343916:  0.25%: .tw (Taiwan)
+  154:  0.10%:   3037159:  0.09%: .is (Iceland)
+  149:  0.10%:   3800280:  0.11%: .si (Slovenia)
+  149:  0.10%:   1301704:  0.04%: .yu (Yugoslavia)
+  132:  0.09%:   6467446:  0.19%: .sk (Slovak Republic)
+  123:  0.08%:   4014637:  0.12%: .by (Belarus)
+  110:  0.07%:   5301042:  0.16%: .su (Former USSR)
+  109:  0.07%:   2876967:  0.09%: .gb (Great Britain)
+   88:  0.06%:   1684350:  0.05%: .arpa (Old style Arpanet)
+   85:  0.06%:    594554:  0.02%: .co (Colombia)
+   81:  0.05%:   1178981:  0.04%: .bg (Bulgaria)
+   77:  0.05%:   2060844:  0.06%: .cn (China)
+   76:  0.05%:    797373:  0.02%: .ph (Philippines)
+   74:  0.05%:   1986804:  0.06%: .lv (Latvia)
+   62:  0.04%:   3186069:  0.10%: .ar (Argentina)
+   60:  0.04%:   1977098:  0.06%: .ua (Ukraine)
+   58:  0.04%:   1415305:  0.04%: .cr (Costa Rica)
+   57:  0.04%:    935134:  0.03%: .tr (Turkey)
+   56:  0.04%:    761373:  0.02%: [unknown]
+   49:  0.03%:   2140116:  0.06%: .ie (Ireland)
+   33:  0.02%:     79682:       : .lu (Luxembourg)
+   31:  0.02%:     92552:       : .ee (Estonia)
+   29:  0.02%:    100844:       : .cy (Cyprus)
+   26:  0.02%:    979174:  0.03%: .ro (Romania)
+   24:  0.02%:    910211:  0.03%: .ae (United Arab Emirates)
+   24:  0.02%:    546402:  0.02%: .uy (Uruguay)
+   17:  0.01%:     68259:       : .sv (El Salvador)
+   15:  0.01%:    980446:  0.03%: .eg (Egypt)
+   15:  0.01%:     42367:       : .kw (Kuwait)
+   13:  0.01%:     33062:       : .gt (Guatemala)
+    7:       :    604595:  0.02%: .lt (Lithuania)
+    5:       :     37669:       : .ci (Ivory Coast (Cote D'Ivoire))
+    1:       :    197377:  0.01%: .na (Namibia)
+    1:       :    197377:  0.01%: .pe (Peru)
+</pre>
+
+<hr>
+<h2><a NAME="FileType">File Type Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+<p>Printing all extensions, sorted by number of requests.
+<pre>#reqs:  %reqs:      bytes: %bytes: extension
+-----  ------  ----------  ------  ---------
+90889: 61.34%:  211732375:  6.32%: .gif
+31151: 21.03%:  458505703: 13.69%: .htm
+ 7637:  5.15%:   31548234:  0.94%: (directories)
+ 5700:  3.85%:   13516324:  0.40%: (no extension)
+ 5669:  3.83%:  908936471: 27.15%: .zip
+ 5156:  3.48%: 1585434017: 47.35%: .exe
+ 1107:  0.75%:   11794577:  0.35%: .txt
+  555:  0.37%:  123765096:  3.70%: .tgz
+  142:  0.10%:     429682:  0.01%: .class
+   29:  0.02%:     327410:  0.01%: .bas
+   29:  0.02%:     374686:  0.01%: .mod
+   25:  0.02%:     452899:  0.01%: .pl
+   20:  0.01%:     297260:  0.01%: .cpp
+   19:  0.01%:     276108:  0.01%: .c
+   15:  0.01%:     592578:  0.02%: .cob
+   13:  0.01%:     250562:  0.01%: .asm
+    3:       :     128100:       : .html
+    1:       :       2903:       : .cgi
+    1:       :        912:       : .lst
+</pre>
+
+<hr>
+<h2><a NAME="Request">Request Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+<p>Printing the first 100 requested files, sorted by number of requests.
+<pre>#reqs:  %reqs:     bytes: %bytes: file
+-----  ------  ---------  ------  ----
+ 6967:  4.70%:  23414046:  0.70%: <a HREF="/">/</a>
+ 6503:  4.39%:  95504122:  2.85%: <a HREF="/html/xitami/index.htm">/html/xitami/index.htm</a>
+ 6360:  4.29%:  72895287:  2.18%: <a HREF="/html/im0190c.gif">/html/im0190c.gif</a>
+ 6310:  4.26%:  25564628:  0.76%: <a HREF="/html/xitami/xitami1.gif">/html/xitami/xitami1.gif</a>
+ 6031:  4.07%:   5814590:  0.17%: <a HREF="/html/newstone.gif">/html/newstone.gif</a>
+ 5912:  3.99%:   5879903:  0.18%: <a HREF="/html/xitami/newstone.gif">/html/xitami/newstone.gif</a>
+ 5842:  3.94%:  22517457:  0.67%: <a HREF="/html/xitami/im0096c.gif">/html/xitami/im0096c.gif</a>
+ 5817:  3.93%:   5754214:  0.17%: <a HREF="/html/xitami.gif">/html/xitami.gif</a>
+ 5793:  3.91%:   5675659:  0.17%: <a HREF="/html/libero.gif">/html/libero.gif</a>
+ 5681:  3.83%:  13478826:  0.40%: <a HREF="/cgi-bin/count">/cgi-bin/count</a>
+ 5643:  3.81%:   5807119:  0.17%: <a HREF="/html/htmlpp.gif">/html/htmlpp.gif</a>
+ 5568:  3.76%:   5207344:  0.16%: <a HREF="/html/smt.gif">/html/smt.gif</a>
+ 5563:  3.75%:   5812840:  0.17%: <a HREF="/html/archives.gif">/html/archives.gif</a>
+ 5490:  3.71%:   4975829:  0.15%: <a HREF="/html/sfl.gif">/html/sfl.gif</a>
+ 5449:  3.68%:   5447344:  0.16%: <a HREF="/html/search.gif">/html/search.gif</a>
+ 5377:  3.63%:   5041733:  0.15%: <a HREF="/html/horizon.gif">/html/horizon.gif</a>
+ 3982:  2.69%:  57425055:  1.72%: <a HREF="/html/xitami/index1.htm">/html/xitami/index1.htm</a>
+ 3703:  2.50%:    962423:  0.03%: <a HREF="/html/new.gif">/html/new.gif</a>
+ 1687:  1.14%: 545345365: 16.29%: <a HREF="/pub/xitami/xiw3220e.exe">/pub/xitami/xiw3220e.exe</a>
+ 1634:  1.10%: 251408090:  7.51%: <a HREF="/pub/xitami/xiw3213c.zip">/pub/xitami/xiw3213c.zip</a>
+ 1498:  1.01%:   6486716:  0.19%: <a HREF="/html/im0096c.gif">/html/im0096c.gif</a>
+ 1271:  0.86%:   5025105:  0.15%: <a HREF="/html/libero/im0096c.gif">/html/libero/im0096c.gif</a>
+ 1267:  0.86%:   1904260:  0.06%: <a HREF="/html/libero/lr_tiny.gif">/html/libero/lr_tiny.gif</a>
+ 1227:  0.83%:   1238285:  0.04%: <a HREF="/html/libero/newstone.gif">/html/libero/newstone.gif</a>
+ 1221:  0.82%:   6643638:  0.20%: <a HREF="/html/libero/index.htm">/html/libero/index.htm</a>
+ 1093:  0.74%:    867204:  0.03%: <a HREF="/html/libero/leebehro.gif">/html/libero/leebehro.gif</a>
+  833:  0.56%:   5747059:  0.17%: <a HREF="/html/htmlpp/index.htm">/html/htmlpp/index.htm</a>
+  831:  0.56%:   3884008:  0.12%: <a HREF="/html/htmlpp/htmlpp1.gif">/html/htmlpp/htmlpp1.gif</a>
+  829:  0.56%: 264064924:  7.89%: <a HREF="/pub/xitami/xiw3220d.exe">/pub/xitami/xiw3220d.exe</a>
+  799:  0.54%:   3484838:  0.10%: <a HREF="/html/htmlpp/im0096c.gif">/html/htmlpp/im0096c.gif</a>
+  790:  0.53%:   3196634:  0.10%: <a HREF="/html/archives.htm">/html/archives.htm</a>
+  776:  0.52%:    874464:  0.03%: <a HREF="/html/htmlpp/newstone.gif">/html/htmlpp/newstone.gif</a>
+  772:  0.52%:  18492739:  0.55%: <a HREF="/html/xitami/index3.htm">/html/xitami/index3.htm</a>
+  764:  0.52%:   6019931:  0.18%: <a HREF="/html/xitami/index2.htm">/html/xitami/index2.htm</a>
+  733:  0.49%:  18011380:  0.54%: <a HREF="/html/xitami/index9.htm">/html/xitami/index9.htm</a>
+  687:  0.46%:   5650951:  0.17%: <a HREF="/html/xiusers.htm">/html/xiusers.htm</a>
+  569:  0.38%:   2120984:  0.06%: <a HREF="/html/libero/index1.htm">/html/libero/index1.htm</a>
+  563:  0.38%:   7752140:  0.23%: <a HREF="/html/xitami/index4.htm">/html/xitami/index4.htm</a>
+  561:  0.38%:   1790454:  0.05%: <a HREF="/html/sfl/sfl80c.gif">/html/sfl/sfl80c.gif</a>
+  550:  0.37%: 173881619:  5.19%: <a HREF="/pub/xitami/xiw3220c.exe">/pub/xitami/xiw3220c.exe</a>
+  546:  0.37%:   2397430:  0.07%: <a HREF="/html/smt/smt100.gif">/html/smt/smt100.gif</a>
+  544:  0.37%:    583848:  0.02%: <a HREF="/html/smt/newstone.gif">/html/smt/newstone.gif</a>
+  538:  0.36%:    561921:  0.02%: <a HREF="/html/sfl/newstone.gif">/html/sfl/newstone.gif</a>
+  532:  0.36%:   8101720:  0.24%: <a HREF="/html/xitami/index8.htm">/html/xitami/index8.htm</a>
+  522:  0.35%:   2166130:  0.06%: <a HREF="/html/smt/im0096c.gif">/html/smt/im0096c.gif</a>
+  512:  0.35%:   2081516:  0.06%: <a HREF="/html/sfl/im0096c.gif">/html/sfl/im0096c.gif</a>
+  486:  0.33%:   5058943:  0.15%: <a HREF="/html/smt/index.htm">/html/smt/index.htm</a>
+  475:  0.32%:  10432035:  0.31%: <a HREF="/html/sfl/index.htm">/html/sfl/index.htm</a>
+  408:  0.28%: 121166344:  3.62%: <a HREF="/pub/xitami/xic3220e.exe">/pub/xitami/xic3220e.exe</a>
+  402:  0.27%:   2952946:  0.09%: <a HREF="/html/xitami/index7.htm">/html/xitami/index7.htm</a>
+  388:  0.26%:   2298030:  0.07%: <a HREF="/html/xitami/license.htm">/html/xitami/license.htm</a>
+  374:  0.25%:   1386820:  0.04%: <a HREF="/html/libero/index2.htm">/html/libero/index2.htm</a>
+  373:  0.25%:   1329898:  0.04%: <a HREF="/index.htm">/index.htm</a>
+  340:  0.23%:  68563007:  2.05%: <a HREF="/pub/libero/bin/lrmswin.zip">/pub/libero/bin/lrmswin.zip</a>
+  326:  0.22%:   4207522:  0.13%: <a HREF="/html/xitami/index13.htm">/html/xitami/index13.htm</a>
+  323:  0.22%:  23161649:  0.69%: <a HREF="/pub/tools/htmlpp.zip">/pub/tools/htmlpp.zip</a>
+  286:  0.19%:   1938889:  0.06%: <a HREF="/html/xitami/index6.htm">/html/xitami/index6.htm</a>
+  279:  0.19%:   1472637:  0.04%: <a HREF="/html/htmlpp/index1.htm">/html/htmlpp/index1.htm</a>
+  278:  0.19%:    103716:       : <a HREF="/pub/libero/bin/readme.txt">/pub/libero/bin/readme.txt</a>
+  277:  0.19%:  91505885:  2.73%: <a HREF="/pub/xitami/xis3220e.exe">/pub/xitami/xis3220e.exe</a>
+  276:  0.19%:  65370298:  1.95%: <a HREF="/pub/libero/bin/lrmswins.zip">/pub/libero/bin/lrmswins.zip</a>
+  265:  0.18%:    647854:  0.02%: <a HREF="/html/xitami/index10.htm">/html/xitami/index10.htm</a>
+  265:  0.18%:  53658283:  1.60%: <a HREF="/html/libero/lrdoc.htm">/html/libero/lrdoc.htm</a>
+  252:  0.17%:  60048470:  1.79%: <a HREF="/pub/xitami/xiw3213c.exe">/pub/xitami/xiw3213c.exe</a>
+  223:  0.15%:   2554439:  0.08%: <a HREF="/html/sfl/sfl1.htm">/html/sfl/sfl1.htm</a>
+  210:  0.14%:    793230:  0.02%: <a HREF="/html/libero/lrinst.htm">/html/libero/lrinst.htm</a>
+  209:  0.14%:    653202:  0.02%: <a HREF="/html/lrusers.htm">/html/lrusers.htm</a>
+  204:  0.14%:  57747761:  1.72%: <a HREF="/pub/libero/doc/lrhtml.zip">/pub/libero/doc/lrhtml.zip</a>
+  200:  0.13%:    653583:  0.02%: <a HREF="/html/xitami/index12.htm">/html/xitami/index12.htm</a>
+  197:  0.13%:  13104873:  0.39%: <a HREF="/pub/libero/doc/lrfull.zip">/pub/libero/doc/lrfull.zip</a>
+  191:  0.13%:  39993029:  1.19%: <a HREF="/pub/xitami/xiw3220e.zip">/pub/xitami/xiw3220e.zip</a>
+  185:  0.12%:   2121150:  0.06%: <a HREF="/html/smt/">/html/smt/</a>
+  183:  0.12%:   1909039:  0.06%: <a HREF="/html/libero/lrintr.htm">/html/libero/lrintr.htm</a>
+  183:  0.12%:     74970:       : <a HREF="/robots.txt">/robots.txt</a>
+  176:  0.12%:  46173777:  1.38%: <a HREF="/pub/xitami/xiw1620e.exe">/pub/xitami/xiw1620e.exe</a>
+  174:  0.12%:     89598:       : <a HREF="/html/lrindex.htm">/html/lrindex.htm</a>
+  173:  0.12%:    464292:  0.01%: <a HREF="/html/xitami/index11.htm">/html/xitami/index11.htm</a>
+  166:  0.11%:   3782244:  0.11%: <a HREF="/html/sfl/">/html/sfl/</a>
+  164:  0.11%:    613929:  0.02%: <a HREF="/html/xitami/index5.htm">/html/xitami/index5.htm</a>
+  157:  0.11%:  36432113:  1.09%: <a HREF="/pub/libero/example/complete.zip">/pub/libero/example/complete.zip</a>
+  154:  0.10%:  70205889:  2.10%: <a HREF="/html/sfl/sfldoc.htm">/html/sfl/sfldoc.htm</a>
+  154:  0.10%:   4993152:  0.15%: <a HREF="/html/htmlpp/index3.htm">/html/htmlpp/index3.htm</a>
+  149:  0.10%:  33804772:  1.01%: <a HREF="/pub/xitami/xic3213c.exe">/pub/xitami/xic3213c.exe</a>
+  148:  0.10%:    340516:  0.01%: <a HREF="/html/search.htm">/html/search.htm</a>
+  127:  0.09%:     26015:       : <a HREF="/pub/libero/src/readme.txt">/pub/libero/src/readme.txt</a>
+  123:  0.08%:    399646:  0.01%: <a HREF="/cgi-bin/discover/html/">/cgi-bin/discover/html/</a>
+  122:  0.08%:    446660:  0.01%: <a HREF="/html/libero/lrinst3.htm">/html/libero/lrinst3.htm</a>
+  118:  0.08%:  11622840:  0.35%: <a HREF="/pub/libero/bin/lrdos32.zip">/pub/libero/bin/lrdos32.zip</a>
+  117:  0.08%:  34851260:  1.04%: <a HREF="/pub/xitami/xic3220c.exe">/pub/xitami/xic3220c.exe</a>
+  116:  0.08%:  41824053:  1.25%: <a HREF="/pub/xitami/xis3220c.exe">/pub/xitami/xis3220c.exe</a>
+  113:  0.08%:   5111495:  0.15%: <a HREF="/html/htmlpp/doc/htmlpp.txt">/html/htmlpp/doc/htmlpp.txt</a>
+  107:  0.07%:  33195088:  0.99%: <a HREF="/pub/xitami/xic3220d.exe">/pub/xitami/xic3220d.exe</a>
+  107:  0.07%:  47167560:  1.41%: <a HREF="/pub/xitami/xiuni20e.tgz">/pub/xitami/xiuni20e.tgz</a>
+  106:  0.07%:  21626641:  0.65%: <a HREF="/pub/sfl/src/sflsrc17.zip">/pub/sfl/src/sflsrc17.zip</a>
+  106:  0.07%:    676005:  0.02%: <a HREF="/html/smt/smt17.htm">/html/smt/smt17.htm</a>
+  105:  0.07%:   1362542:  0.04%: <a HREF="/html/libero/lrexam.htm">/html/libero/lrexam.htm</a>
+  104:  0.07%:   1664159:  0.05%: <a HREF="/pub/libero/example/tcpip.zip">/pub/libero/example/tcpip.zip</a>
+   99:  0.07%:  22260809:  0.66%: <a HREF="/html/smt/smtdoc.htm">/html/smt/smtdoc.htm</a>
+   98:  0.07%:  24397376:  0.73%: <a HREF="/pub/xitami/xiw1620d.exe">/pub/xitami/xiw1620d.exe</a>
+   97:  0.07%:  32815581:  0.98%: <a HREF="/pub/xitami/xis3220d.exe">/pub/xitami/xis3220d.exe</a>
+</pre>
+
+<hr>
+<h2><a NAME="Referrer">Referrer Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+<p>Printing the first 100 referring URLs, sorted by number of requests.
+<pre>#reqs:  %reqs:      bytes: %bytes: URL
+-----  ------  ----------  ------  ---
+70402: 51.82%:  217250221:  7.63%: <a HREF="http://www.imatix.com/">http://www.imatix.com/</a>
+22229: 16.36%:  152771358:  5.37%: <a HREF="http://www.imatix.com/html/xitami/index.htm">http://www.imatix.com/html/xitami/index.htm</a>
+ 6802:  5.01%: 1271462207: 44.66%: <a HREF="http://www.imatix.com/html/xitami/index1.htm">http://www.imatix.com/html/xitami/index1.htm</a>
+ 5282:  3.89%:   60565207:  2.13%: <a HREF="http://www.imatix.com/html/libero/index.htm">http://www.imatix.com/html/libero/index.htm</a>
+ 2738:  2.02%:   26852598:  0.94%: <a HREF="http://www.imatix.com/html/htmlpp/index.htm">http://www.imatix.com/html/htmlpp/index.htm</a>
+ 2552:  1.88%:   51976574:  1.83%: <a HREF="http://www.imatix.com/html/sfl/index.htm">http://www.imatix.com/html/sfl/index.htm</a>
+ 2267:  1.67%:  190665710:  6.70%: <a HREF="http://www.imatix.com/html/libero/index1.htm">http://www.imatix.com/html/libero/index1.htm</a>
+ 2029:  1.49%:    6560325:  0.23%: <a HREF="http://www.imatix.com/index.htm">http://www.imatix.com/index.htm</a>
+ 1834:  1.35%:  211528391:  7.43%: <a HREF="http://www.windows95.com/apps/servers-websrv.html">http://www.windows95.com/apps/servers-websrv.html</a>
+ 1722:  1.27%:   23109195:  0.81%: <a HREF="http://www.imatix.com/html/smt/index.htm">http://www.imatix.com/html/smt/index.htm</a>
+  918:  0.68%:   22861595:  0.80%: <a HREF="http://www.imatix.com/html/libero/index2.htm">http://www.imatix.com/html/libero/index2.htm</a>
+  831:  0.61%:    5652981:  0.20%: <a HREF="http://www.imatix.com/html/archives.htm">http://www.imatix.com/html/archives.htm</a>
+  687:  0.51%:   10067229:  0.35%: <a HREF="http://www.imatix.com/html/sfl/">http://www.imatix.com/html/sfl/</a>
+  605:  0.45%:    2538807:  0.09%: <a HREF="http://www.imatix.com/html/xiusers.htm">http://www.imatix.com/html/xiusers.htm</a>
+  504:  0.37%:    1695270:  0.06%: <a HREF="http://www.imatix.com/html/lrindex.htm">http://www.imatix.com/html/lrindex.htm</a>
+  477:  0.35%:    4386550:  0.15%: <a HREF="http://www.imatix.com/html/smt/">http://www.imatix.com/html/smt/</a>
+  415:  0.31%:    8560627:  0.30%: <a HREF="http://www.imatix.com/html/libero/lrinst.htm">http://www.imatix.com/html/libero/lrinst.htm</a>
+  404:  0.30%:    1661528:  0.06%: <a HREF="http://www.imatix.com">http://www.imatix.com</a>
+  354:  0.26%:    4173924:  0.15%: <a HREF="http://www.imatix.com/html/xitami/index2.htm">http://www.imatix.com/html/xitami/index2.htm</a>
+  344:  0.25%:   45690828:  1.61%: <a HREF="http://www.imatix.com/html/sfl/sfl1.htm">http://www.imatix.com/html/sfl/sfl1.htm</a>
+  331:  0.24%:    1177060:  0.04%: <a HREF="http://imatix.com/">http://imatix.com/</a>
+  315:  0.23%:    9578729:  0.34%: <a HREF="http://www.imatix.com/html/htmlpp/index1.htm">http://www.imatix.com/html/htmlpp/index1.htm</a>
+  296:  0.22%:    2762501:  0.10%: <a HREF="http://www.imatix.com/html/libero/">http://www.imatix.com/html/libero/</a>
+  245:  0.18%:    1748282:  0.06%: <a HREF="http://www.imatix.com/html/xitami/index3.htm">http://www.imatix.com/html/xitami/index3.htm</a>
+  226:  0.17%:     751656:  0.03%: <a HREF="http://www.imatix.com/html/search.htm">http://www.imatix.com/html/search.htm</a>
+  224:  0.16%:   76142052:  2.67%: <a HREF="http://www.download.com/PC/Result/Download/0,21,0-36870,00.html">http://www.download.com/PC/Result/Download/0,21,0-36870,00.html</a>
+  222:  0.16%:   33103018:  1.16%: <a HREF="http://nng.simplenet.com/servd32.html">http://nng.simplenet.com/servd32.html</a>
+  201:  0.15%:    1378746:  0.05%: <a HREF="http://www.imatix.com/html/libero/lrintr.htm">http://www.imatix.com/html/libero/lrintr.htm</a>
+  200:  0.15%:     964025:  0.03%: <a HREF="http://www.imatix.com/html/xitami/index9.htm">http://www.imatix.com/html/xitami/index9.htm</a>
+  188:  0.14%:   32451501:  1.14%: <a HREF="http://www.imatix.com/html/libero/lrinst3.htm">http://www.imatix.com/html/libero/lrinst3.htm</a>
+  187:  0.14%:    1058398:  0.04%: <a HREF="http://www.imatix.com/html/xitami/index4.htm">http://www.imatix.com/html/xitami/index4.htm</a>
+  168:  0.12%:    6979001:  0.25%: <a HREF="http://www.imatix.com/html/libero/lrdoc.htm">http://www.imatix.com/html/libero/lrdoc.htm</a>
+  167:  0.12%:   15399525:  0.54%: <a HREF="http://www.imatix.com/html/smt/smt17.htm">http://www.imatix.com/html/smt/smt17.htm</a>
+  163:  0.12%:    1808231:  0.06%: <a HREF="http://www.imatix.com/html/xitami/index8.htm">http://www.imatix.com/html/xitami/index8.htm</a>
+  136:  0.10%:    1007193:  0.04%: <a HREF="http://www.imatix.com/html/xitami/index7.htm">http://www.imatix.com/html/xitami/index7.htm</a>
+  134:  0.10%:    1420462:  0.05%: <a HREF="http://www.imatix.com/html/htmlpp/">http://www.imatix.com/html/htmlpp/</a>
+  130:  0.10%:     525630:  0.02%: <a HREF="http://www.imatix.com/html/lrusers.htm">http://www.imatix.com/html/lrusers.htm</a>
+  126:  0.09%:     674939:  0.02%: <a HREF="http://www.imatix.com/html/xitami/license.htm">http://www.imatix.com/html/xitami/license.htm</a>
+  119:  0.09%:     820802:  0.03%: <a HREF="http://www.imatix.com/html/xitami/index6.htm">http://www.imatix.com/html/xitami/index6.htm</a>
+  112:  0.08%:     624091:  0.02%: <a HREF="http://www.imatix.com/html/xitami/index10.htm">http://www.imatix.com/html/xitami/index10.htm</a>
+  111:  0.08%:     599366:  0.02%: <a HREF="http://www.imatix.com/html/libero/lruser.htm">http://www.imatix.com/html/libero/lruser.htm</a>
+  106:  0.08%:    7347380:  0.26%: <a HREF="http://www.imatix.com/html/libero/lrinst8.htm">http://www.imatix.com/html/libero/lrinst8.htm</a>
+  104:  0.08%:     858367:  0.03%: <a HREF="http://127.0.0.1/">http://127.0.0.1/</a>
+  103:  0.08%:     686082:  0.02%: <a HREF="http://www.imatix.com/html/xitami/">http://www.imatix.com/html/xitami/</a>
+  101:  0.07%:     397555:  0.01%: <a HREF="http://www.ccse.net/~tazzone/softwar2.html">http://www.ccse.net/~tazzone/softwar2.html</a>
+   97:  0.07%:   12659158:  0.44%: <a HREF="http://www.imatix.com/html/sfl/sfldoc.htm">http://www.imatix.com/html/sfl/sfldoc.htm</a>
+   95:  0.07%:   15710070:  0.55%: <a HREF="http://www.softseek.com/Internet/Web_Publishing_Tools/Servers/Review_12419_index.html">http://www.softseek.com/Internet/Web_Publishing_Tools/Servers/Review_12419_index.html</a>
+   95:  0.07%:    4799482:  0.17%: <a HREF="http://imatix.com/html/sfl/">http://imatix.com/html/sfl/</a>
+   90:  0.07%:    1414922:  0.05%: <a HREF="http://www.davecentral.com/2426.html">http://www.davecentral.com/2426.html</a>
+   88:  0.06%:    2346168:  0.08%: <a HREF="http://www.imatix.com/cgi-bin/discover/html/">http://www.imatix.com/cgi-bin/discover/html/</a>
+   86:  0.06%:     469499:  0.02%: <a HREF="http://www.infogoal.com/cbd/cbdtol.htm">http://www.infogoal.com/cbd/cbdtol.htm</a>
+   76:  0.06%:     479703:  0.02%: <a HREF="http://www.imatix.com/html/xitami/index11.htm">http://www.imatix.com/html/xitami/index11.htm</a>
+   73:  0.05%:     272831:  0.01%: <a HREF="http://www.imatix.com/html/xitami/index13.htm">http://www.imatix.com/html/xitami/index13.htm</a>
+   73:  0.05%:     390973:  0.01%: <a HREF="http://www.imatix.com/html/libero/lrlang.htm">http://www.imatix.com/html/libero/lrlang.htm</a>
+   72:  0.05%:     290714:  0.01%: <a HREF="http://imatix/">http://imatix/</a>
+   72:  0.05%:     525209:  0.02%: <a HREF="http://imatix.com/html/xitami/index.htm">http://imatix.com/html/xitami/index.htm</a>
+   70:  0.05%:   11071454:  0.39%: <a HREF="http://www.sully.net/nonags/servd32.html">http://www.sully.net/nonags/servd32.html</a>
+   70:  0.05%:    1092348:  0.04%: <a HREF="http://www.imatix.com/html/pieter.htm">http://www.imatix.com/html/pieter.htm</a>
+   69:  0.05%:   13602825:  0.48%: <a HREF="http://www.skaneateles.com/nonags/servd32.html">http://www.skaneateles.com/nonags/servd32.html</a>
+   69:  0.05%:      43164:       : <a HREF="http://www.xnet.com/~blatura/linapp6.html">http://www.xnet.com/~blatura/linapp6.html</a>
+   69:  0.05%:   10157395:  0.36%: <a HREF="http://users.southeast.net/~itsvicki/nonags/servd32.html">http://users.southeast.net/~itsvicki/nonags/servd32.html</a>
+   67:  0.05%:     468858:  0.02%: <a HREF="http://www.yahoo.com/Business_and_Economy/Companies/Computers/Software/Internet/Shareware/HTML_Converters/">http://www.yahoo.com/Business_and_Economy/Companies/Computers/Software/Internet/Shareware/HTML_Converters/</a>
+   61:  0.04%:     523699:  0.02%: <a HREF="http://www.imatix.com/html/xitami/index12.htm">http://www.imatix.com/html/xitami/index12.htm</a>
+   59:  0.04%:    9667853:  0.34%: <a HREF="http://imatix.com/html/xitami/index1.htm">http://imatix.com/html/xitami/index1.htm</a>
+   58:  0.04%:     565910:  0.02%: <a HREF="http://localhost/">http://localhost/</a>
+   57:  0.04%:    9705796:  0.34%: <a HREF="http://www.txk.com/nonags/servd32.html">http://www.txk.com/nonags/servd32.html</a>
+   56:  0.04%:    7546664:  0.27%: <a HREF="http://members.aol.com/nonags2/servd32.html">http://members.aol.com/nonags2/servd32.html</a>
+   54:  0.04%:     107830:       : <a HREF="http://www.imatix.com/html/htmlpp/index3.htm">http://www.imatix.com/html/htmlpp/index3.htm</a>
+   53:  0.04%:    3475027:  0.12%: <a HREF="http://www.imatix.com/html/smt/smtdoc.htm">http://www.imatix.com/html/smt/smtdoc.htm</a>
+   53:  0.04%:     201209:  0.01%: <a HREF="http://webcompare.internet.com/chart.html">http://webcompare.internet.com/chart.html</a>
+   53:  0.04%:   13138024:  0.46%: <a HREF="http://www.ozemail.com.au/~geisha/program.html">http://www.ozemail.com.au/~geisha/program.html</a>
+   52:  0.04%:    9151930:  0.32%: <a HREF="http://ftp.sunet.se/nonags/servd32.html">http://ftp.sunet.se/nonags/servd32.html</a>
+   51:  0.04%:   10717695:  0.38%: <a HREF="http://www.regio3.de/nonags/servd32.html">http://www.regio3.de/nonags/servd32.html</a>
+   50:  0.04%:    8689945:  0.31%: <a HREF="http://nonags.infinitefish.com/servd32.html">http://nonags.infinitefish.com/servd32.html</a>
+   49:  0.04%:     267351:  0.01%: <a HREF="http://www.imatix.com/html/libero/lrtech.htm">http://www.imatix.com/html/libero/lrtech.htm</a>
+   49:  0.04%:     178370:  0.01%: <a HREF="http://freesite.hal-pc.org/">http://freesite.hal-pc.org/</a>
+   49:  0.04%:     427316:  0.02%: <a HREF="http://www.imatix.com/html/sfl/sfl.htm">http://www.imatix.com/html/sfl/sfl.htm</a>
+   48:  0.04%:     424888:  0.01%: <a HREF="http://www.imatix.com/html/xitami/index5.htm">http://www.imatix.com/html/xitami/index5.htm</a>
+   48:  0.04%:     188904:  0.01%: <a HREF="http://www.ccse.net/~tazzone/software.html">http://www.ccse.net/~tazzone/software.html</a>
+   46:  0.03%:    5533412:  0.19%: <a HREF="http://windows95.com/apps/servers-websrv.html">http://windows95.com/apps/servers-websrv.html</a>
+   45:  0.03%:     180130:  0.01%: <a HREF="http://webcompare.internet.com/compare/xitami.html">http://webcompare.internet.com/compare/xitami.html</a>
+   41:  0.03%:      14692:       : <a HREF="http://141.161.162.132/xitami/index1.htm">http://141.161.162.132/xitami/index1.htm</a>
+   38:  0.03%:     134631:       : <a HREF="http://tucows.mcp.com/server95.html">http://tucows.mcp.com/server95.html</a>
+   38:  0.03%:     298330:  0.01%: <a HREF="http://www.imatix.com/html/libero/lrintr1.htm">http://www.imatix.com/html/libero/lrintr1.htm</a>
+   38:  0.03%:    5863910:  0.21%: <a HREF="http://nonags.atlnet.com/servd32.html">http://nonags.atlnet.com/servd32.html</a>
+   37:  0.03%:     602754:  0.02%: <a HREF="http://www.microsoft.com/ntserver/tools/web.htm">http://www.microsoft.com/ntserver/tools/web.htm</a>
+   37:  0.03%:     203579:  0.01%: <a HREF="http://imatix.com/html/sfl/index.htm">http://imatix.com/html/sfl/index.htm</a>
+   36:  0.03%:     513058:  0.02%: <a HREF="http://www.netzwelt.com/selfhtml/teba.htm">http://www.netzwelt.com/selfhtml/teba.htm</a>
+   35:  0.03%:     946023:  0.03%: <a HREF="http://www.imatix.com/html/libero/lrinst1.htm">http://www.imatix.com/html/libero/lrinst1.htm</a>
+   33:  0.02%:     127423:       : <a HREF="http://tucows.tierranet.com/server95.html">http://tucows.tierranet.com/server95.html</a>
+   31:  0.02%:     607829:  0.02%: <a HREF="http://www.imatix.com/html/htmlpp/index2.htm">http://www.imatix.com/html/htmlpp/index2.htm</a>
+   31:  0.02%:     226512:  0.01%: <a HREF="http://www.imatix.com/html/libero/lrintr2.htm">http://www.imatix.com/html/libero/lrintr2.htm</a>
+   31:  0.02%:     205294:  0.01%: <a HREF="http://imatix.com/html/xitami/">http://imatix.com/html/xitami/</a>
+   30:  0.02%:     109510:       : <a HREF="http://tucows.wau.nl/server95.html">http://tucows.wau.nl/server95.html</a>
+   30:  0.02%:     107719:       : <a HREF="http://www.imatix.com/html/libero/lrlang5.htm">http://www.imatix.com/html/libero/lrlang5.htm</a>
+   29:  0.02%:    1042890:  0.04%: <a HREF="http://www.imatix.com/html/libero/lrinst5.htm">http://www.imatix.com/html/libero/lrinst5.htm</a>
+   28:  0.02%:    3285392:  0.12%: <a HREF="http://www.chugaboom.net/nonags/servd32.html">http://www.chugaboom.net/nonags/servd32.html</a>
+   28:  0.02%:     109332:       : <a HREF="http://tucows.phoenix.net/server95.html">http://tucows.phoenix.net/server95.html</a>
+   27:  0.02%:    1212365:  0.04%: <a HREF="http://www.imatix.com/html/libero/lrexam.htm">http://www.imatix.com/html/libero/lrexam.htm</a>
+   27:  0.02%:     248005:  0.01%: <a HREF="http://www.imatix.com/html/libero/lrintr7.htm">http://www.imatix.com/html/libero/lrintr7.htm</a>
+</pre>
+
+<hr>
+<h2><a NAME="Browser">Browser Summary</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#FullBrowser">Browser Report</a>)
+<p>Printing the first 100 browsers, sorted by number of requests.
+<pre>#reqs:  %reqs:      bytes: %bytes: browser
+-----  ------  ----------  ------  -------
+99688: 66.98%: 2168727235: 65.21%: Netscape
+45438: 30.53%:  996057514: 29.95%: Netscape (compatible)
+  723:  0.49%:   10873334:  0.33%: Teleport Pro
+  513:  0.34%:    5142491:  0.15%: Wget
+  421:  0.28%:   33070353:  0.99%: Lynx
+  357:  0.24%:    3390743:  0.10%: IBM-WebExplorer-DLL
+  178:  0.12%:   51104224:  1.54%: GetRight
+  142:  0.10%:   23655589:  0.71%: Net_Vampire
+   75:  0.05%:           :       : Linkbot 3.0
+   56:  0.04%:     851624:  0.03%: Mosaic
+   51:  0.03%:     711976:  0.02%: Hell Loomer
+   50:  0.03%:     478228:  0.01%: Crescent Internet ToolPak HTTP OLE Control v.1.0
+   46:  0.03%:     576176:  0.02%: Surfbot
+   46:  0.03%:     468928:  0.01%: URL-minder
+   41:  0.03%:     935735:  0.03%: Gorilla
+   40:  0.03%:    4847074:  0.15%: Lynx 2.5  libwww-FM
+   39:  0.03%:     203329:  0.01%: Microsoft URL Control - 5.00.3714
+   39:  0.03%:       9460:       : MSIE
+   37:  0.02%:           :       : MSProxy
+   36:  0.02%:     676507:  0.02%: ANT Fresco
+   34:  0.02%:     407667:  0.01%: Mozilla 3.0 (OS
+   33:  0.02%:    4358675:  0.13%: WebWhacker v1.0
+   32:  0.02%:      28877:       : ia_archiver
+   30:  0.02%:      95508:       : Java1.0.2
+   29:  0.02%:           :       : Alexa Verify
+   29:  0.02%:        654:       : WebWatcher 1.0
+   28:  0.02%:           :       : CNET_Snoop
+   28:  0.02%:      17396:       : Web21 CustomCrawl bert@web21.com
+   27:  0.02%:    1425107:  0.04%: NetAttache
+   26:  0.02%:     167273:  0.01%: ISpi
+   24:  0.02%:     118438:       : Redbaron
+   21:  0.01%:    6885672:  0.21%: DLM
+   21:  0.01%:     237712:  0.01%: WiseWire-Widow-1.0
+   21:  0.01%:     119637:       : JustView
+   20:  0.01%:      81480:       : NetBuddy
+   19:  0.01%:      54987:       : Cyberdog
+   19:  0.01%:           :       : MSIE 4.01 ( Windows 97)
+   19:  0.01%:      83100:       : Nutscrape
+   18:  0.01%:      44401:       : ArchitextSpider
+   18:  0.01%:      78117:       : AmigaVoyager
+   16:  0.01%:      24270:       : Lycos_Spider_(T-Rex)
+   16:  0.01%:     406046:  0.01%: OmniWeb
+   15:  0.01%:    2052729:  0.06%: ReGet
+   15:  0.01%:      35699:       : NaviPress
+   14:  0.01%:      21187:       : InfoSeek Sidewinder
+   13:  0.01%:      32439:       : amaya
+   13:  0.01%:      14117:       : Scooter
+   12:  0.01%:           :       : LWP::Simple
+   12:  0.01%:      34273:       : WebCrawler
+   12:  0.01%:      32129:       : HotJava
+   11:  0.01%:       4519:       : libwww-perl
+   11:  0.01%:      26764:       : BackRub
+   11:  0.01%:      92646:       : Lotus-Notes
+   10:  0.01%:       2040:       : MOMspider
+   10:  0.01%:      11747:       : Slurp
+    7:       :      26143:       : GAIS Robot
+    7:       :      47619:       : NetRecorder
+    7:       :      28435:       : VCI WebViewer VCI WebViewer Win32
+    7:       :    1893878:  0.06%: BPFTP
+    6:       :      16908:       : WiseWire-Widow-1.0-ALPHA12
+    6:       :     399877:  0.01%: Mini_Lynx
+    6:       :      24389:       : Microsoft Internet Explorer
+    5:       :     340188:  0.01%: ArcWeb
+    5:       :     102485:       : IBM WebExplorer 
+    4:       :           :       : Checkbot
+    4:       :       9183:       : WiseWire-HotSpider-1.0
+    4:       :     246529:  0.01%: Ç∂Ç·Ç©Ç∂Ç·Ç©Ç∂Ç·ÇÒÅÙÇ∂Ç·Ç©Ç∂Ç·Ç©Ç∂Ç·ÇÒÅÙÇ∂Ç·Ç©Ç∂Ç·Ç©Ç∂Ç·Ç©Ç∂Ç·Ç©Ç∂Ç·ÇÒÇØÇÒÇ€ÇÒÅÙÅÙ
+    4:       :       8471:       : WebAuto
+    3:       :           :       : Gulliver
+    3:       :      18899:       : WebCompass 2.0
+    3:       :      24576:       : contype
+    2:       :           :       : AltaVista Intranet V1.0 tasadmin tasadmin@altavista.ca
+    2:       :    1235921:  0.04%: fetch
+    2:       :       4154:       : Netscape-Proxy
+    2:       :       4031:       : LinkScan
+    2:       :       8040:       : MomoZ
+    2:       :        365:       : MSFrontPage
+    2:       :        510:       : Microsoft_Site_Analyst
+    2:       :      10317:       : Phoaks 2.0
+    2:       :     851485:  0.03%: TTYhttp
+    2:       :           :       : SiteMill
+    2:       :           :       : InfoLink
+    1:       :       7445:       : Net-Tamer
+    1:       :       3977:       : GET
+    1:       :       4154:       : EmailSiphon
+    1:       :       4154:       : Lynx 2.4-FM  libwww-FM
+    1:       :           :       : Redirector
+    1:       :        176:       : FOO
+    1:       :           :       : missinglink
+    1:       :           :       : Astra
+    1:       :        510:       : NetMechanic
+    1:       :           :       : Symantec WebFind Page Validation
+    1:       :       4154:       : robot@idealab.com
+    1:       :        510:       : TITAN
+    1:       :       4154:       : Java1.1.3
+    1:       :       4154:       : EUnetCH-Crawler
+    1:       :       4154:       : Java1.1.4
+    1:       :     425825:  0.01%: EirGrabber
+    1:       :     425825:  0.01%: FileHound 1.0
+    1:       :       4154:       : blaze
+</pre>
+
+<hr>
+<h2><a NAME="FullBrowser">Browser Report</a></h2>
+
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>)
+<p>Printing the first 100 browsers, sorted by number of requests.
+<pre>#reqs:  %reqs:     bytes: %bytes: browser
+-----  ------  ---------  ------  -------
+12597:  8.46%: 296671569:  8.92%: Mozilla/4.03 [en] (Win95; I)
+10819:  7.27%: 233132240:  7.01%: Mozilla/4.0 (compatible; MSIE 4.0; Windows 95)
+ 6314:  4.24%: 131901151:  3.97%: Mozilla/3.01Gold (Win95; I)
+ 6090:  4.09%: 130062878:  3.91%: Mozilla/4.01 [en] (Win95; I)
+ 5320:  3.57%: 123085666:  3.70%: Mozilla/4.02 [en] (Win95; I)
+ 4101:  2.76%:  99940788:  3.01%: Mozilla/4.03 [en] (WinNT; I)
+ 4044:  2.72%:  85196081:  2.56%: Mozilla/4.0 (compatible; MSIE 4.0; Windows NT)
+ 3831:  2.57%:  76252853:  2.29%: Mozilla/2.0 (compatible; MSIE 3.02; Update a; Windows 95)
+ 3799:  2.55%:  84717315:  2.55%: Mozilla/2.0 (compatible; MSIE 3.02; Windows 95)
+ 3687:  2.48%:  83755994:  2.52%: Mozilla/3.01 (Win95; I)
+ 3406:  2.29%:  89527073:  2.69%: Mozilla/2.0 (compatible; MSIE 3.01; Windows 95)
+ 3276:  2.20%:  67944328:  2.04%: Mozilla/3.0 (Win95; I)
+ 3191:  2.14%:  64839748:  1.95%: Mozilla/4.03 [en] (Win95; I ;Nav)
+ 2707:  1.82%:  60994079:  1.83%: Mozilla/2.0 (compatible; MSIE 3.0; Windows 95)
+ 2634:  1.77%:  28864503:  0.87%: Mozilla/3.0 (Win95; I; HTTPClient 1.0)
+ 2481:  1.67%:  48832547:  1.47%: Mozilla/4.01 [en] (WinNT; I)
+ 2380:  1.60%:  55312363:  1.66%: Mozilla/4.0 (compatible; MSIE 4.0b2; Windows 95)
+ 2351:  1.58%:  61193103:  1.84%: Mozilla/3.0Gold (Win95; I)
+ 2037:  1.37%:  44911502:  1.35%: Mozilla/3.03Gold (Win95; I)
+ 1602:  1.08%:  36522035:  1.10%: Mozilla/4.03 [en] (Win95; U)
+ 1285:  0.86%:  26603671:  0.80%: Mozilla/4.02 [en] (WinNT; I)
+ 1223:  0.82%:  29512983:  0.89%: Mozilla/2.0 (compatible; MSIE 3.02; Windows NT)
+ 1202:  0.81%:  24406430:  0.73%: Mozilla/2.0 (compatible; MSIE 3.02; Update a; Windows NT)
+ 1173:  0.79%:  33588206:  1.01%: Mozilla/3.01Gold (WinNT; I)
+ 1119:  0.75%:  26770392:  0.80%: Mozilla/3.01 (Win16; I)
+ 1100:  0.74%:  22391504:  0.67%: Mozilla/4.0 (compatible; MSIE 4.0; Windows 95; Snap.home.1)
+ 1094:  0.74%:  19170459:  0.58%: Mozilla/3.0 (OS/2; I)
+ 1084:  0.73%:  29921788:  0.90%: Mozilla/4.0 [en] (Win95; I)
+ 1065:  0.72%:  26369414:  0.79%: Mozilla/3.01 (WinNT; I)
+ 1063:  0.71%:  20668265:  0.62%: Mozilla/2.02 (OS/2; I)
+  992:  0.67%:  18640729:  0.56%: Mozilla/3.03 (Win95; I)
+  958:  0.64%:  18256732:  0.55%: Mozilla/3.04 (Win95; I)
+  892:  0.60%:  19179686:  0.58%: Mozilla/3.0 (Win16; I)
+  861:  0.58%:  30917060:  0.93%: Mozilla/3.03 (WinNT; I)
+  755:  0.51%:  18218618:  0.55%: Mozilla/4.02 [en] (Win95; I ;Nav)
+  722:  0.49%:  10339472:  0.31%: Mozilla/2.0 (compatible; MSIE 3.02; Windows 3.1)
+  711:  0.48%:  17945958:  0.54%: Mozilla/4.03 [en] (WinNT; I ;Nav)
+  709:  0.48%:  15257063:  0.46%: Mozilla/4.01 [en] (Win95; U)
+  706:  0.47%:   8852232:  0.27%: Mozilla/4.03 [en] (Win16; I)
+  703:  0.47%:  10799300:  0.32%: Teleport Pro/1.28
+  694:  0.47%:  15416887:  0.46%: Mozilla/3.03 (Win16; I)
+  652:  0.44%:  23473619:  0.71%: Mozilla/4.01 [de] (Win95; I)
+  646:  0.43%:  12792785:  0.38%: Mozilla/4.03 [en] (X11; I; Linux 2.0.30 i586)
+  642:  0.43%:  14126229:  0.42%: Mozilla/2.0 (compatible; MSIE 3.02; Win32)
+  621:  0.42%:  19224478:  0.58%: Mozilla/2.0 (compatible; MSIE 3.02; Update a; AK; Windows 95)
+  609:  0.41%:   8682676:  0.26%: Mozilla/4.0 (compatible; MSIE 4.0b2; Windows NT)
+  574:  0.39%:  10877040:  0.33%: Mozilla/3.01 [de] (Win95; I)
+  574:  0.39%:  10603855:  0.32%: Mozilla/3.01Gold (Win16; I)
+  553:  0.37%:   9990418:  0.30%: Mozilla/2.0 (compatible; MSIE 3.02; AK; Windows 95)
+  552:  0.37%:   8092530:  0.24%: Mozilla/2.02E (OS/2; I)
+  548:  0.37%:  13663348:  0.41%: Mozilla/2.0 (compatible; MSIE 3.01; Update a; Windows 95)
+  519:  0.35%:   7633052:  0.23%: Mozilla/4.03 [en] (WinNT; U)
+  515:  0.35%:  12847350:  0.39%: Mozilla/4.03 [es] (Win95; I)
+  503:  0.34%:  11905218:  0.36%: Mozilla/3.0 (WinNT; I)
+  501:  0.34%:   3100708:  0.09%: Wget/1.4.4
+  480:  0.32%:   9096250:  0.27%: Mozilla/4.01 [en] (Win16; I)
+  474:  0.32%:   9312869:  0.28%: Mozilla/2.0 (compatible; MSIE 3.0; Update a; Windows 95)
+  463:  0.31%:  13370861:  0.40%: Mozilla/3.0 (Win95; U)
+  449:  0.30%:  15023717:  0.45%: Mozilla/3.01Gold [de] (Win95; I)
+  425:  0.29%:   6504386:  0.20%: Mozilla/3.04Gold (Win95; I)
+  418:  0.28%:   8524261:  0.26%: Mozilla/2.0 (compatible; MSIE 3.0B; Win32)
+  417:  0.28%:  10286407:  0.31%: Mozilla/3.0Gold (WinNT; I)
+  412:  0.28%:   8693271:  0.26%: Mozilla/4.02 [en] (Win95; U)
+  382:  0.26%:   8569551:  0.26%: Mozilla/3.0 (compatible; Opera/3.0; Windows 95/NT)
+  381:  0.26%:   7406144:  0.22%: Mozilla/2.0 (compatible; MSIE 3.03; Windows 3.1)
+  362:  0.24%:   1913507:  0.06%: Mozilla/2.0 (compatible; HTTPClient 1.0; Windows 95)
+  361:  0.24%:   8297088:  0.25%: Mozilla/3.02 (Win95; I)
+  350:  0.24%:   6483006:  0.19%: Mozilla/2.0 (compatible; MSIE 3.01; Windows NT)
+  309:  0.21%:   5917887:  0.18%: Mozilla/3.01Gold (Win95; I; 16bit)
+  308:  0.21%:   7522369:  0.23%: Mozilla/4.03 [en] (Win95; U ;Nav)
+  296:  0.20%:   9959893:  0.30%: Mozilla/3.01Gold [de]C-DT  (Win95; I)
+  293:  0.20%:   6325743:  0.19%: Mozilla/3.03Gold (Win16; I)
+  267:  0.18%:   7375842:  0.22%: Mozilla/4.03 [fr] (Win95; I)
+  264:  0.18%:   5925821:  0.18%: Mozilla/3.04 (Win16; I)
+  261:  0.18%:   2604235:  0.08%: Mozilla/2.0 (compatible; MSIE 3.0; Update a; Windows NT)
+  258:  0.17%:   9249528:  0.28%: Mozilla/3.01C-KIT  (Win95; U)
+  256:  0.17%:   9190499:  0.28%: Mozilla/2.0 (compatible; MSIE 3.0; Windows NT)
+  251:  0.17%:   7059294:  0.21%: Mozilla/4.0 [en] (WinNT; I)
+  242:  0.16%:   6065471:  0.18%: Mozilla/3.01 [es] (Win95; I)
+  232:  0.16%:   7317404:  0.22%: Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)
+  229:  0.15%:   7422662:  0.22%: Mozilla/4.0 (compatible; MSIE 4.0; Windows 95; TUCOWS USER)
+  225:  0.15%:   5044761:  0.15%: Mozilla/4.03 [en] (Win16; I ;Nav)
+  225:  0.15%:   5315596:  0.16%: Mozilla/4.02 [en] (WinNT; I ;Nav)
+  222:  0.15%:   3145624:  0.09%: Mozilla/3.0Gold (Win16; I)
+  221:  0.15%:   3920714:  0.12%: Mozilla/3.02 (Macintosh; I; PPC)
+  219:  0.15%:   3934315:  0.12%: Mozilla/1.22 (compatible; MSIE 2.0d; Windows NT)
+  214:  0.14%:   3693767:  0.11%: Mozilla/2.02 [de] (OS/2; I)
+  210:  0.14%:   7738851:  0.23%: Mozilla/3.02Gold (Win95; I)
+  205:  0.14%:   4658735:  0.14%: Mozilla/4.0 (compatible; MSIE 4.0; Windows NT; Snap.home.1)
+  204:  0.14%:   4301326:  0.13%: Mozilla/3.01Gold (Win95; U)
+  201:  0.14%:   5050109:  0.15%: Mozilla/3.0 (WinNT; U)
+  195:  0.13%:   2641801:  0.08%: Mozilla/3.0C-NC320  (Win95; I)
+  194:  0.13%:  11481301:  0.35%: Mozilla/2.02 (Win16; I)
+  193:  0.13%:   3345042:  0.10%: Mozilla/4.02 [en]C-AtHome0402  (Win95; U)
+  189:  0.13%:   3908647:  0.12%: Mozilla/3.01 (Win95; U)
+  186:  0.12%:   4418992:  0.13%: Mozilla/3.01 (Win95; I; 16bit)
+  183:  0.12%:   1476551:  0.04%: Mozilla/4.01 [en] (WinNT; U)
+  183:  0.12%:   3501907:  0.11%: Mozilla/4.0 (compatible; MSIE 4.0; MSN 2.5; Windows 95)
+  182:  0.12%:   2117082:  0.06%: Mozilla/2.02 (Win95; I; 16bit)
+  177:  0.12%:   2120548:  0.06%: Mozilla/3.0Gold (Win95; U)
+</pre><hr>
+
+
+<p>(<b>Go To</b>: <a HREF="#Top">Top</a>: <a HREF="#Weekly">Weekly Report</a>: <a HREF="#Daily">Daily Summary</a>: <a HREF="#FullDaily">Daily Report</a>: <a HREF="#Hourly">Hourly Summary</a>: <a HREF="#Domain">Domain Report</a>: <a HREF="#FileType">File Type Report</a>: <a HREF="#Request">Request Report</a>: <a HREF="#Referrer">Referrer Report</a>: <a HREF="#Browser">Browser Summary</a>: <a HREF="#FullBrowser">Browser Report</a>)
+
+</body>
+</html>
